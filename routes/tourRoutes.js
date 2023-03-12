@@ -2,7 +2,7 @@ const express = require("express");
 const dbfn = require("../contollers/tourController");
 
 const Router = express.Router();
-Router.param("id", dbfn.checkId);
+// Router.param("id", dbfn.checkId);
 // Router.get("/", dbfn.getAllTours); //get all tours
 // Router.get("/:id", dbfn.getSpecificTour); //get specific tour
 // Router.post("/", dbfn.createTour); //send tour
